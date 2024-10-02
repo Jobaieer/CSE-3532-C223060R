@@ -48,12 +48,15 @@ body {
   color: var(--primary-color);
 }
 
+/* Header Container */
+
 #header-container {
   background-color: var(--bg-color);
 
   padding-top: 50px;
 }
 
+/* Navbar Section Start */
 #nav-section {
   display: flex;
   justify-content: space-between;
@@ -81,6 +84,9 @@ a {
 a:hover {
   color: var(--primary-color);
 }
+/* Navbar Section End */
+
+/* Hero Section Start */
 
 #hero-section {
   padding-top: 50px;
@@ -107,4 +113,47 @@ a:hover {
   align-items: center;
   text-align: center;
   gap: 20px;
+}
+
+.hero-down img {
+  width: 100%;
+}
+
+/* Hero Section End */
+/* Header Container End*/
+
+/* Main Container */
+/*Team Section Start */
+
+#team-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.team-left {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.team-right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.team-right button {
+  width: 50%;
+}
+
+.color-gray {
+  font-weight: 500;
+  color: var(--bark-color-03);
+}
+
+.color-primary {
+  color: var(--primary-color);
 }
