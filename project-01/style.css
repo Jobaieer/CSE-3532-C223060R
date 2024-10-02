@@ -3,6 +3,53 @@
   padding: 0;
 }
 
-.header-container {
+.margin {
+  margin: 50px 50px;
+}
+
+.header-wrapper {
   display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  width: 20%;
+}
+
+.header-right {
+  width: 70%;
+  height: 80vh;
+}
+
+#developer h1 {
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+  height: 80vh;
+  font-size: 6rem;
+  letter-spacing: 10px;
+  justify-content: center;
+}
+
+#developer {
+}
+
+#navbar-section {
+  display: flex;
+}
+
+#nav-menu {
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+#hero-section {
+  flex-direction: column;
+}
+
+span {
+  color: orange;
 }
