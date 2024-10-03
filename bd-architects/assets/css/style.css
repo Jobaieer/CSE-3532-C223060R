@@ -268,8 +268,7 @@ a:hover {
 /* Sponsors Section Start */
 
 #sponsors-section {
-  padding-top: 130px;
-  padding-bottom: 130px;
+  margin: 130px 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -299,3 +298,24 @@ a:hover {
 }
 /* Sponsors Section End */
 /* Main Container End */
+
+/* Footer Container Start */
+
+#footer-container {
+  background-color: var(--bg-color);
+  margin-bottom: 130px;
+  padding: 50px 0px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#footer-container > p {
+  color: var(--bark-color-02);
+}
+
+.f-j {
+  color: var(--primary-color);
+  font-weight: 600;
+  cursor: pointer;
+}
+/* Footer Container End */
