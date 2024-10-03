@@ -30,6 +30,7 @@ body {
 
 .para {
   color: var(--bark-color-03);
+  font-size: 1rem;
 }
 
 .btn {
@@ -126,8 +127,7 @@ a:hover {
 /*Team Section Start */
 
 #team-section {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 130px 0px;
   display: flex;
   align-items: center;
   gap: 50px;
@@ -157,3 +157,145 @@ a:hover {
 .color-primary {
   color: var(--primary-color);
 }
+/* Team Section End */
+
+/* Service Section Start */
+
+#service-section {
+  padding-bottom: 130px;
+}
+
+.service-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-left h3 {
+  border-left: 6px solid var(--primary-color);
+  padding-left: 20px;
+}
+
+.service-ls-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.service-list {
+  padding: 30px 30px 30px 20px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px 0px rgba(114, 114, 114, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.service-list p {
+  font-size: 0.8rem;
+}
+
+.service-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+}
+
+.service-right {
+  width: 50%;
+  height: 100vh;
+}
+
+.service-right img {
+  width: 100%;
+}
+
+.service-list h5 {
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.service-exp {
+  font-size: 2rem;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  width: 50%;
+  text-align: center;
+  padding: 45px 40px;
+  border-radius: 8px;
+  position: relative;
+  top: -90px;
+  left: -80px;
+  cursor: pointer;
+}
+/* Service Section End */
+
+/* Fact Section Start */
+#fact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#fact-section > p {
+  width: 50%;
+}
+
+.fact-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 70px;
+  padding: 50px 30px;
+  cursor: pointer;
+}
+
+.fact-card {
+  text-align: center;
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 30px 0px;
+}
+
+.fact-card p {
+  font-weight: 600;
+}
+
+.fact-card h2 {
+  color: var(--bark-color-02);
+}
+/* Fact Section End */
+
+/* Sponsors Section Start */
+
+#sponsors-section {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#sponsors-section h3 + p {
+  text-align: center;
+  width: 50%;
+}
+
+.sponsors {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  padding-top: 30px;
+}
+
+.sponsors img {
+  filter: grayscale(100%);
+}
+
+.sponsors img:hover {
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+/* Sponsors Section End */
+/* Main Container End */
