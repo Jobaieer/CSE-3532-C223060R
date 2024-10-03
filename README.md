@@ -8,12 +8,10 @@ In this repo, I share my tasks and projects of this course.
 
 ## 🖇️ Task Deployment
 
-<div style="text-align: center;">
 |     Task-No     | Date of Submitted |             About Task             |              Live-Server Link              |
 | :-------------: | :---------------: | :--------------------------------: | :----------------------------------------: |
 | `Assignment-01` |   `30/09/2024`    | Online Flowers Shop - `Responsive` | https://iiuc-cbi-030-task03-j.netlify.app/ |
 | `Assignment-02` |   `03/10/2024`    |    BD Architects - `Responsive`    |    https://cse-3532-a02-j.netlify.app/     |
-</div>
 
 ## 🔗 Connected with @jobaieer
 
