@@ -127,6 +127,10 @@ body {
     gap: 20px;
   }
 
+  .hero-up > p br {
+    display: none;
+  }
+
   .hero-down img {
     width: 100%;
   }
@@ -441,6 +445,10 @@ body {
     align-items: center;
     text-align: center;
     gap: 20px;
+  }
+
+  .hero-up > p br {
+    display: block;
   }
 
   .hero-down img {
